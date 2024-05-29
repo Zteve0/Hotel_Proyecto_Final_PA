@@ -1,0 +1,15 @@
+@page "{id}"
+@model HotelManagementApp.Pages.Reservas.CancelarModel
+@{
+    ViewData["Title"] = "Cancelar Reserva";
+}
+<partial name="_ValidationScriptsPartial"></partial>
+<partial name="_ValidationSummary" model="ViewData.ModelState"></partial>
+
+<div class="container mt-5" style="border: 1px solid blue;">
+    <h1 style="color: blue;">Cancelar Reserva</h1>
+
+    <form method="post">
+        <button type="submit" class="btn btn-primary" style="background-color: blue; border: 1px solid blue;">Cancelar Reserva</button>
+    </form>
+</div>

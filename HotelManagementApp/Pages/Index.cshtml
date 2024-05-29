@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="jumbotron jumbotron-fluid bg-light text-dark">
+    <div class="container text-center">
+        <h1 class="display-4">Bienvenidos a la Gestión del Hotel</h1>
+        <p class="lead">La mejor manera de gestionar sus reservas y habitaciones de forma eficiente.</p>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Habitaciones</h5>
+                    <p class="card-text">Administre las habitaciones disponibles y su ocupación.</p>
+                    <a href="/Habitaciones/Index" class="btn btn-primary">Ver Habitaciones</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Reservas</h5>
+                    <p class="card-text">Realice y gestione reservas de manera rápida y sencilla.</p>
+                    <a href="/Reservas/Index" class="btn btn-primary">Ver Reservas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Clientes</h5>
+                    <p class="card-text">Mantenga un registro detallado de sus clientes.</p>
+                    <a href="/Clientes/Index" class="btn btn-primary">Ver Clientes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

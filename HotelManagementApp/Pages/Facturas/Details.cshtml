@@ -1,0 +1,34 @@
+@page "{id}"
+@model HotelManagementApp.Pages.Facturas.DetailsModel
+@{
+    ViewData["Title"] = "Detalles de la Factura";
+}
+
+<div class="container mt-5" style="border: 1px solid blue;">
+    <h1 class="text-primary">Detalles de la Factura - @Model.Factura.Id</h1>
+
+    <table class="table">
+        <thead class="thead-light" style="background-color: #dce3f8;">
+            <tr>
+                <th style="color: blue;">Descripción</th>
+                <th style="color: blue;">Cantidad</th>
+                <th style="color: blue;">Precio Unitario</th>
+                <th style="color: blue;">Costo Total</th>
+                <th style="color: blue;">Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Factura.Items)
+            {
+                    <tr>
+                        <td>@item.Description</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.UnitCost</td>
+                        <td>@item.TotalCost</td>
+                        <td>@item.When.ToString("g")</td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+    <p style="color: blue;">Total Factura: @Model.Factura.TotalAmmount</p>
+</div>

@@ -1,0 +1,81 @@
+@page
+@model HotelManagementApp.Pages.Clientes.IndexModel
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="display-4" style="color: blue;">Clientes</h1>
+            <p class="lead" style="color: blue;">Gestión de clientes y sus descuentos</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <table class="table table-striped table-hover mt-4" style="border: 1px solid blue;">
+                <thead class="thead-dark">
+                    <tr>
+                        <th style="color: blue;">Nombre</th>
+                        <th style="color: blue;">Tipo de ID</th>
+                        <th style="color: blue;">Número de ID</th>
+                        <th style="color: blue;">Teléfono</th>
+                        <th style="color: blue;">Código de Fidelidad</th>
+                        <th style="color: blue;">Descuento (%)</th>
+                        <th style="color: blue;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var cliente in Model.Clientes)
+                    {
+                            <tr>
+                                <td>@cliente.Name</td>
+                                <td>@cliente.IdType</td>
+                                <td>@cliente.IdNumber</td>
+                                <td>@cliente.Phone</td>
+                                <td>@cliente.LoyaltyCode</td>
+                                <td>
+                                    <input id="@cliente.IdNumber" type="number" class="form-control" value="@cliente.Discount" onchange="updateDiscount(this, '@cliente.IdNumber')" />
+                                </td>
+                                <td>
+                                    <button class="btn btn-success" style="border: 1px solid blue; background-color: blue;" onclick="saveDiscount('@cliente.IdNumber', @cliente.Discount)">Guardar</button>
+                                </td>
+                            </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+        <script>
+            function updateDiscount(input, id) {
+                const discount = parseFloat(input.value);
+                input.value = discount;
+            }
+
+            async function saveDiscount(id) {
+                const customerRow = document.getElementById(id)
+                const discount = customerRow.value;
+
+                if (discount !== undefined) {
+                    const response = await fetch(/Clientes/Actualizar?IdNumber=${id}&Discount=${discount}, {
+                        method: 'GET',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                    });
+
+                    if (response.ok) {
+                        alert('Descuento actualizado correctamente.');
+                    } else {
+                        alert('Error al actualizar el descuento.');
+                    }
+                } else {
+                    alert('Por favor, modifique el descuento antes de guardar.');
+                }
+            }
+        </script>
+}

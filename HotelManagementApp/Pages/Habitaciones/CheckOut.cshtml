@@ -1,0 +1,15 @@
+@page "{id}"
+@model HotelManagementApp.Pages.Habitaciones.CheckOutModel
+@{
+    ViewData["Title"] = "Check Out";
+}
+<partial name="_ValidationScriptsPartial"></partial>
+<partial name="_ValidationSummary" model="ViewData.ModelState"></partial>
+
+<div class="container mt-5" style="border: 1px solid blue;">
+    <h1 style="color: blue;">Check Out</h1>
+
+    <form method="post">
+        <button type="submit" class="btn btn-primary" style="background-color: blue; border: 1px solid blue;">Check Out</button>
+    </form>
+</div>
