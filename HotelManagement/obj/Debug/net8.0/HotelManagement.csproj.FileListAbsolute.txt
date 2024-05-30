@@ -31,3 +31,15 @@ C:\Users\steve\Downloads\Hotel Proyecto\HotelManagement\obj\Debug\net8.0\HotelMa
 C:\Users\steve\Downloads\Hotel Proyecto\HotelManagement\obj\Debug\net8.0\refint\HotelManagement.dll
 C:\Users\steve\Downloads\Hotel Proyecto\HotelManagement\obj\Debug\net8.0\HotelManagement.pdb
 C:\Users\steve\Downloads\Hotel Proyecto\HotelManagement\obj\Debug\net8.0\ref\HotelManagement.dll
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\bin\Debug\net8.0\HotelManagement.deps.json
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\bin\Debug\net8.0\HotelManagement.dll
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\bin\Debug\net8.0\HotelManagement.pdb
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\obj\Debug\net8.0\HotelManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\obj\Debug\net8.0\HotelManagement.AssemblyInfoInputs.cache
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\obj\Debug\net8.0\HotelManagement.AssemblyInfo.cs
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\obj\Debug\net8.0\HotelManagement.csproj.CoreCompileInputs.cache
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\obj\Debug\net8.0\HotelManagement.sourcelink.json
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\obj\Debug\net8.0\HotelManagement.dll
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\obj\Debug\net8.0\refint\HotelManagement.dll
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\obj\Debug\net8.0\HotelManagement.pdb
+C:\Users\steve\Downloads\Hotel Proyecto\Hotel_Proyecto_Final_PA\HotelManagement\obj\Debug\net8.0\ref\HotelManagement.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagementApp\\HotelManagementApp.csproj": {}
+    "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagementApp\\HotelManagementApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagementApp\\HotelManagementApp.csproj": {
+    "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagementApp\\HotelManagementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagementApp\\HotelManagementApp.csproj",
+        "projectUniqueName": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagementApp\\HotelManagementApp.csproj",
         "projectName": "HotelManagementApp",
-        "projectPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagementApp\\HotelManagementApp.csproj",
+        "projectPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagementApp\\HotelManagementApp.csproj",
         "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagementApp\\obj\\",
+        "outputPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagementApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagement\\HotelManagement.csproj": {
-                "projectPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagement\\HotelManagement.csproj"
+              "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagement\\HotelManagement.csproj": {
+                "projectPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagement\\HotelManagement.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagement\\HotelManagement.csproj": {
+    "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagement\\HotelManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagement\\HotelManagement.csproj",
+        "projectUniqueName": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagement\\HotelManagement.csproj",
         "projectName": "HotelManagement",
-        "projectPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagement\\HotelManagement.csproj",
+        "projectPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagement\\HotelManagement.csproj",
         "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagement\\obj\\",
+        "outputPath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",

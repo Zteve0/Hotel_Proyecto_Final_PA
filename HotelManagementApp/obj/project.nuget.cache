@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0MCD7L6175zKNLaE7fJ+Oqe73/TYCKYqERLlzWzzucNga4nPDgbmiKxh2kjJTiMSPYxNdu5SlvhITR6DE33faA==",
+  "dgSpecHash": "+/snXiFI//yDuW/KPJ25Zglse4U/poBLPUM23FK97aROlSpOoTJVvwvtc7yXOOBdWcIOb4il0YejqRXR2dZmgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\HotelManagementApp\\HotelManagementApp.csproj",
+  "projectFilePath": "C:\\Users\\steve\\Downloads\\Hotel Proyecto\\Hotel_Proyecto_Final_PA\\HotelManagementApp\\HotelManagementApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steve\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\steve\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
